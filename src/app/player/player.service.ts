@@ -9,7 +9,7 @@ export class PlayerService {
   audio: HTMLAudioElement;
   isPlaying: boolean = false;
   musicSource: string = './../../assets/music/Oldberg-summer.mp3';
-  volume: number = 0.3;
+  volume: number = 0.2;
 
   constructor(private router: Router) {
     this.audio = new Audio();
