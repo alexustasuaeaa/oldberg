@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 export class PlayerService {
   audio: HTMLAudioElement;
   isPlaying: boolean = false;
-  musicSource: string = './../../assets/music/Oldberg-summer.mp3';
+  musicSource: string = '/assets/music/Oldberg-summer.mp3';
   volume: number = 1;
 
   constructor(private router: Router) {

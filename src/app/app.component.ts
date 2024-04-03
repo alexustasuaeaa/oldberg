@@ -25,8 +25,8 @@ export class AppComponent {
     }
   }
 
-  navigateToOldberg(): void {
-    this.router.navigate(['/oldberg']);
+  navigateToInfo(): void {
+    this.router.navigate(['/info']);
     this.toggleNavbar();
   }
 
