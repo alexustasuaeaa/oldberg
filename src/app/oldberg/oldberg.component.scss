@@ -1,6 +1,5 @@
 .oldberg-info {
   background-position: center center;
-//   height: 1000px;
   height: 100vh;
   background-repeat: no-repeat;
   width: auto;
@@ -14,7 +13,6 @@
 /* next size - tablet */
 @media (min-width: 768px) {
   .oldberg-info {
-//     height: 1300px;
     background-image: url('./../../assets/img/2.jpg');
   }
 }
@@ -22,7 +20,6 @@
 /* next size - tablet landscape and it covers desktop */
 @media (min-width: 1366px) {
   .oldberg-info {
-//     height: 1000px;
     background-image: url('./../../assets/img/3.jpg');
   }
 }
@@ -30,7 +27,6 @@
 /* next size - larger desktops */
 @media (min-width: 1766px) {
   .oldberg-info {
-//     height: 1200px;
     background-image: url('./../../assets/img/4.jpg');
   }
 }
