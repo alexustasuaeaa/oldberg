@@ -16,7 +16,6 @@ export class PlayerService {
     this.audio.src = this.musicSource;
     this.audio.volume = this.volume;
     this.audio.loop = true;
-    this.play();
   }
 
   play(): void {
