@@ -1,22 +1,22 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class PlayerService {
   audio: HTMLAudioElement;
   isPlaying: boolean = false;
-  musicSource: string = '/assets/music/Oldberg-summer.mp3';
-  volume: number = 1;
+  musicSource: string = './../../assets/music/Oldberg-summer.mp3';
+  volume: number = 0.3;
 
   constructor(private router: Router) {
     this.audio = new Audio();
     this.audio.src = this.musicSource;
+    this.audio.volume = this.volume;
     this.audio.loop = true;
-    this.audio.autoplay = true;
-    this.isPlaying = true;
-    this.volume = 0.3;
+//     this.play();
   }
 
   play(): void {
