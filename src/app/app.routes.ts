@@ -5,9 +5,9 @@ import { MusicComponent } from './music/music.component';
 import { ContactsComponent } from './contacts/contacts.component';
 
 export const routes: Routes = [
-    { path: 'info', component: OldbergComponent },
+    { path: 'oldberg', component: OldbergComponent },
     { path: 'about', component: AboutComponent },
     { path: 'music', component: MusicComponent },
     { path: 'contacts', component: ContactsComponent },
-    { path: '**', redirectTo: '/info' },
+    { path: '**', redirectTo: '/oldberg' },
 ];
