@@ -1,20 +1,25 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, Router } from '@angular/router';
 import { PlayerComponent } from './player/player.component';
+import { TranslateService } from "@ngx-translate/core";
+import { HttpClient } from '@angular/common/http';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, PlayerComponent],
+  imports: [RouterOutlet, PlayerComponent, TranslateModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  providers: [Router]
+  providers: [Router, HttpClient, TranslateService]
 })
 export class AppComponent {
   title = 'oldberg';
 
-  constructor(private router: Router) {
-
+  constructor(private router: Router,
+              private translate: TranslateService) {
+    translate.setDefaultLang('en');
+    this.translate.use(this.translate.getBrowserLang()!);
   }
 
   toggleNavbar(): void {
