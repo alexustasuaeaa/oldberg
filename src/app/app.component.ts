@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, Router } from '@angular/router';
 import { PlayerComponent } from './player/player.component';
-import { TranslateService } from "@ngx-translate/core";
 import { HttpClient } from '@angular/common/http';
+import { TranslateService } from "@ngx-translate/core";
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
