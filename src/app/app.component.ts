@@ -30,6 +30,14 @@ export class AppComponent {
     }
   }
 
+  changeLang() {
+    if (this.translate.currentLang ==='ru') {
+      this.translate.use('en');
+    } else {
+      this.translate.use('ru');
+    }
+  }
+
   navigateToInfo(): void {
     this.router.navigate(['/info']);
     this.toggleNavbar();

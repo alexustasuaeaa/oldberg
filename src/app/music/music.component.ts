@@ -14,4 +14,7 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class MusicComponent {
 
+  constructor (private translate: TranslateService) {
+
+  }
 }

@@ -21,7 +21,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-5 offset-4 col-sm-3 offset-sm-7 col-lg-2 offset-lg-10 position-fixed">
+      <div class="col-5 offset-4 col-sm-3 offset-sm-7 col-lg-2 offset-lg-9 position-fixed">
         <app-player-component></app-player-component>
       </div>
     </nav>
@@ -32,6 +32,11 @@
   </div>
 
   <footer class="footer container-fluid text-center fixed-bottom">
+    <div class="position-fixed">
+      <button type="button" class="btn bg-light rounded-circle bg-opacity-75 mx-1" (click)="changeLang()">
+        <h6 class="my-1 fw-bold">{{ 'app_nav_lang' | translate }}</h6>
+      </button>
+    </div>
     <!-- Section: Social media -->
     <section class="mb-2">
       <!-- Whatsapp -->
