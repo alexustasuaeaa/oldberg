@@ -1,28 +1,19 @@
 @font-face {
   font-family: 'MyFont';
-  src: url('./assets/fonts/EduNSWACTFoundation-VariableFont_wght.ttf');
-}
-
-@font-face {
-  font-family: 'MyFontTwo';
-  src: url('./assets/fonts/MPLUSRounded1c-Regular.ttf');
+  src: url('./assets/fonts/Neucha-Regular.ttf');
 }
 
 body {
-  p, h3, h4, h5, h6 {
-    font-family: 'MyFont';
-  }
-
+  font-family:  'MyFont';
   li {
-    font-family: 'MyFontTwo';
+    font-size: 1.2em;
   }
-
   a {
-    font-family: 'MyFontTwo';
-    opacity: 0.9;
-    text-decoration: none;
+    font-size: 1.2em;
+    opacity: 1;
+    text-decoration: underline;
     &:hover {
-      opacity: 1;
+      opacity: 0.75;
     }
   }
 }
