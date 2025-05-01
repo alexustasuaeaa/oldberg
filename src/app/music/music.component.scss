@@ -1,5 +1,5 @@
 .music {
-  background-image: url('./../../assets/img/wall.jpg');
+  background-image: url('./../../assets/img/oldberg/wall.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -14,12 +14,15 @@
 
 /* next size - tablet landscape and it covers desktop */
 @media (min-width: 1366px) {
-  .music {
-    height: 100vh;
-    .music-text {
-      .last-card {
-         margin-bottom: 0px;
-       }
-    }
+  .list-group {
+    height: 300px;
   }
+//   .music {
+//     height: 100vh;
+//     .music-text {
+//       .last-card {
+//          margin-bottom: 0px;
+//        }
+//     }
+//   }
 }

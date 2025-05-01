@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   width: auto;
   background-size: cover;
-  background-image: url('./../../assets/img/1.jpg');
+  background-image: url('./../../assets/img/oldberg/1.jpg');
   .oldberg-text {
     margin-top: 60px;
   }
@@ -13,20 +13,20 @@
 /* next size - tablet */
 @media (min-width: 768px) {
   .oldberg-info {
-    background-image: url('./../../assets/img/2.jpg');
+    background-image: url('./../../assets/img/oldberg/2.jpg');
   }
 }
 
 /* next size - tablet landscape and it covers desktop */
 @media (min-width: 1366px) {
   .oldberg-info {
-    background-image: url('./../../assets/img/3.jpg');
+    background-image: url('./../../assets/img/oldberg/3.jpg');
   }
 }
 
 /* next size - larger desktops */
 @media (min-width: 1766px) {
   .oldberg-info {
-    background-image: url('./../../assets/img/4.jpg');
+    background-image: url('./../../assets/img/oldberg/4.jpg');
   }
 }

@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   width: auto;
   background-size: cover;
-  background-image: url('./../../assets/img/5.jpg');
+  background-image: url('./../../assets/img/oldberg/5.jpg');
   .about-text {
     margin-top: 60px;
   }
@@ -13,20 +13,20 @@
 /* next size - tablet */
 @media (min-width: 768px) {
   .about {
-    background-image: url('./../../assets/img/6.jpg');
+    background-image: url('./../../assets/img/oldberg/6.jpg');
   }
 }
 
 /* next size - tablet landscape and it covers desktop */
 @media (min-width: 1366px) {
   .about {
-    background-image: url('./../../assets/img/7.jpg');
+    background-image: url('./../../assets/img/oldberg/7.jpg');
   }
 }
 
 /* next size - larger desktops */
 @media (min-width: 1766px) {
   .about {
-    background-image: url('./../../assets/img/8.jpg');
+    background-image: url('./../../assets/img/oldberg/8.jpg');
   }
 }
